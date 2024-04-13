@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+         <!--------------status starts--------------->
+         <div class="status">
+            <div class="time">
+                <p>9:26</p>
+            </div>
+            <div class="icons">
+                <ion-icon name="cellular"></ion-icon>
+                <ion-icon name="wifi"></ion-icon>
+                <ion-icon name="battery-full"></ion-icon>
+            </div>
+        </div>
+        <!-----------------Status ends--------------->
+        <!--form starts-->
+        <div class="android-large-5">
+            <form action="">
+                <h4>Welcome Back</h4>
+                <div class="form-inputs">
+                    <input type="email" placeholder="Email">
+                    <input class="pass" type="password" placeholder="Password"><ion-icon class="eye" name="eye-off-outline" onclick="togglePasswordVisibility()"></ion-icon>
+                    
+                    <a href="#" class="forget">Forgot your password?</a>
+                    <a href="checklist.html" class="submit-btn">Sign In</a>
+                    <div class="or-container-2">
+                        <div class="line"></div>
+                        <div class="or">or</div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="button-pair">
+                        <button><img src="facebook  (1).png" alt=""></button>
+                        <button><img src="facebook  (2).png" alt=""></button>
+                    </div>
+                   
+                    <p class="not_have_account">Don’t have an account yet? <a href="register.html">Create an account</a></p>
+                </div>
+
+    
+            </form>
+        </div>
+       
+
+    </div>
+    
+
+
+    <!--===========ionicons link============-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        function togglePasswordVisibility() {
+    var passwordField = document.querySelector('.pass');
+    var eyeIcon = document.querySelector('.eye');
+
+    if (passwordField.type === 'password') {
+        passwordField.type = 'text';
+        eyeIcon.setAttribute('name', 'eye-outline');
+    } else {
+        passwordField.type = 'password';
+        eyeIcon.setAttribute('name', 'eye-off-outline');
+    }
+}
+
+    </script>
+</body>
+</html>

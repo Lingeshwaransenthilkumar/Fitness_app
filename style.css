@@ -1,0 +1,1219 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserrat',sans-serif;
+    background:conic-gradient(at 0% 0%, snow, white);
+    
+}
+
+.wrapper{
+    position: relative;
+    margin-top: 20px;
+    background: #fff;
+    /*
+    height: 80vh;
+    width: 100%;
+    */
+    height: 800px;
+    width: 375px;
+    border-radius: 40px;
+    border: 6px solid #2c2c2c;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/*
+@media (max-width:1500px){
+    .wrapper{
+        height: 50rem;
+        width: 25rem;
+        border-radius: 40px;
+        border: 10px solid #2c2c2c;
+    }
+    
+}
+*/
+/*-----------status-------------*/
+.status{
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18.29px;
+    margin-left: 14px;
+}
+.icons{
+    height: 11.67px;
+    width: 66.66px;
+}
+
+
+.status .icons ion-icon{
+    color: #252727;
+    border: 1px black;
+}
+
+.skip-option a {
+    font-weight: 500;
+    line-height: 19.5px;
+    font-size: 16px;
+    color: #9FB2FF;
+    position: absolute;
+    right: 15px;
+    margin-top: 5px;
+
+}
+/*=======android large-1 starts============*/
+
+.android-large-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:480px;
+    flex-direction: column;
+}
+
+.android-large-1-img img{
+    margin-top: 132px;
+    width: 282px;
+    height: 282px;
+}
+
+.android-large-content h3{
+    width: 160px;
+    height: 24px;
+    margin-top: 85px;
+    margin-left: 16px;
+    font-weight: 600;
+    size: 20px;
+    line-height: 24.38px;
+    color: #2C2B2B;
+}
+
+.android-large-content p{
+    width: 343px;
+    height: 60px;
+    padding-top: 16px;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #787878;
+}
+.next-btn a{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top:696px;
+    left:289px;
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 18px;
+    font-size: 25px;
+    padding-left: 18px;
+    border-radius: 150px;
+
+
+}
+
+.next-btn a::before{
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    right: -9px;
+    bottom: -10px;
+    background: transparent;
+    border-right: 1px solid #89A1FF;
+    border-radius: 50%;
+}
+.next-btn a:hover:before{
+    animation: animate 917ms ease-out ;
+
+}
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/*------first page ends---------------*/
+/*--------second page design starts------------*/
+.android-large-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:480px;
+    flex-direction: column;
+}
+
+.android-large-2-img img{
+    margin-top: 132px;
+    width: 352px;
+    height: 234.61px;
+}
+
+.android-large-content h3{
+    width: 160px;
+    height: 24px;
+    margin-top: 85px;
+    margin-left: 16px;
+    font-weight: 600;
+    size: 20px;
+    line-height: 24.38px;
+    color: #2C2B2B;
+}
+
+.android-large-content p{
+    width: 343px;
+    height: 60px;
+    padding-right: 5px;
+    padding-top: 16px;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #787878;
+}
+/*------------page 2 ends-----------------------*/
+/*--------register page starts------------------*/
+
+.android-large-4 h4{
+    margin-top: 24px;
+    margin-left: 16px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+
+}
+
+.android-large-4 .form-inputs{
+    margin-top: 44px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.android-large-4 .form-inputs input
+{
+    width: 335px ;
+    height: 50px ;
+    border-radius: 12px;
+    background: #F1F1F1;
+    outline: none;
+    padding-left: 16px;
+    border: transparent;
+    margin-bottom: 24px;
+}
+
+
+
+.android-large-4 .form-inputs input::placeholder{
+    padding-left: 12px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #7f7f7f;
+}
+
+
+
+
+.android-large-4 p  input{
+    height: 22px !important;
+    width: 22px !important;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+
+}
+
+.android-large-4 .form-inputs p{
+    font-size: 12px;
+    font-weight:500;
+    color: #7F7F7F;
+    line-height: 21.35px;
+
+}
+
+.android-large-4 .form-inputs a{
+    color:#93A9FF;
+}
+
+.android-large-4 .form-inputs  .submit-btn{
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    width: 333px;
+    height: 50px;
+    padding-top: 14px;
+    margin-top: 40px;
+    border-radius: 12px;
+    border: transparent;
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'montserrat',sans-serif;
+    line-height: 19.5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.android-large-4 .form-inputs .or-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.android-large-4 .form-inputs .or-container .line {
+    flex: 1;
+    width: 155px;
+    background: #7f7f7f;
+    height: 0.1px;
+    margin-right: 10px;
+}
+  
+.android-large-4 .form-inputs .or-container .or {
+    margin: 0 10px;
+    color: #2C2B2B;
+    font-weight: 500;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.android-large-4 .form-inputs .button-pair button{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    left: 115px;
+    margin-right: 15px;
+    gap: 0px;
+    background: transparent;
+    border-radius:8px;
+    opacity: 0px;
+    border: 1px solid #7F7F7F;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.android-large-4 .form-inputs .button-pair button img{
+    width: 18px;
+    height: 18px;
+}
+
+.android-large-4 .form-inputs .have_account{
+    margin-left: 80px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-style: 12px;
+    line-height: 14.63px;
+}
+
+/*--------android - 5 page-------------*/
+
+.android-large-5 h4{
+    margin-top: 24px;
+    margin-left: 16px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+
+}
+
+.android-large-5 .form-inputs{
+    margin-top: 44px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.android-large-5 .form-inputs input
+{
+    width: 335px ;
+    height: 50px ;
+    border-radius: 12px;
+    background: #F1F1F1;
+    outline: none;
+    padding-left: 16px;
+    border: transparent;
+}
+
+
+
+.android-large-5 .form-inputs input::placeholder{
+    padding-left: 12px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #7f7f7f;
+}
+
+
+
+
+.android-large-5 p  input{
+    height: 22px !important;
+    width: 22px !important;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+    padding-left: 12px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+
+
+}
+
+.android-large-5 .form-inputs p{
+    font-size: 12px;
+    font-weight:500;
+    color: #7F7F7F;
+    line-height: 21.35px;
+
+}
+
+.android-large-5 .form-inputs a{
+    color:#93A9FF;
+}
+
+.android-large-5 .form-inputs  .submit-btn{
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    width: 333px;
+    height: 50px;
+    padding-top: 14px;
+    margin-top: 40px;
+    border-radius: 12px;
+    border: transparent;
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'montserrat',sans-serif;
+    line-height: 19.5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.android-large-5 .form-inputs .or-container-2 {
+    display: flex;
+    align-items: center;
+  }
+  
+.android-large-5 .form-inputs .or-container-2 .line {
+    flex: 1;
+    width: 155px;
+    background: #7f7f7f;
+    height: 0.5px;
+    margin-right: 10px;
+}
+  
+.android-large-5 .form-inputs .or-container-2 .or {
+    margin: 0 10px;
+    color: #2C2B2B;
+    font-weight: 500;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.android-large-5 .form-inputs .button-pair button{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    left: 115px;
+    margin-right: 15px;
+    gap: 0px;
+    background: transparent;
+    border-radius:8px;
+    opacity: 0px;
+    border: 1px solid #7F7F7F;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.android-large-5 .form-inputs .button-pair button img{
+    width: 18px;
+    height: 18px;
+}
+
+.android-large-5 .form-inputs .not_have_account{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-style: 12px;
+    line-height: 14.63px;
+}
+
+.android-large-5 .form-inputs .pass {
+    position: relative;
+}
+.android-large-5 .form-inputs .eye{
+    position: relative;
+    bottom: 43px;
+    height: 16px;
+    width: 16px;
+    font-size: 16px;
+    right: -290px;
+    color: #7F7F7F;
+
+}
+.android-large-5 .form-inputs .forget{
+    color:#7F7F7F;
+    font-size: 12px;
+    line-height: 14.63px;
+    margin-left: 5px;
+    margin-bottom: 225px;
+
+}
+/*------goals page starts----------*/
+.goals{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.goals h4{
+    margin-left: 78px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    height: 24px;
+    margin-bottom: 40px;
+    
+}
+
+.goals .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    height: 50px;
+    margin-bottom: 16px;
+    top: 135px;
+    background: #F1F1F1;
+    border: transparent;
+    margin-left: 11px;
+    border-radius: 16px;
+
+}
+.goals .box p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: left;
+    height: 15px;
+    margin-left:23px;
+}
+.goals .box input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    margin-right: 16px;
+    background: transparent;
+    border: 1px solid #809AFF
+
+}
+
+.goals .submit-btn{
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    width: 343px;
+    height: 50px;
+    top: 665px;
+    margin-left: 12px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    padding-top: 14px;
+    margin-top: 120px;
+
+
+}
+
+/*---workout page starts-------*/
+
+.workout-page .title{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.workout-page .title ion-icon{
+    background: var(--gray-50, #F1F1F1);
+    width: 20px;
+    height: 20px;
+    border: 3px;
+    margin-left: 16px;
+    color:#2C2B2B;
+    padding: 2px;
+    margin-top: 26px;
+}
+.workout-page h4{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: center;
+    margin-top: 26px;
+    width: 172px;
+    height: 24px;
+}
+
+.box-chart{
+    width: 90%;
+    height:100px;
+    padding-top: 50px;
+    margin-left: 18px;
+    color: black;
+    
+}
+.info-box-2{
+    display: flex;
+    background: linear-gradient(90.07deg, rgba(129, 157, 255, 0.28) 5.94%, rgba(16, 16, 16, 0) 76.45%);
+    margin-left:16px;
+    height: 50px;
+    border-radius: 10px ;
+    border: 1.02px ;
+    font-family: Montserrat;
+    font-size: 12.57px;
+    font-weight: 500;
+    line-height: 15.32px;
+    text-align: left;
+    color:  #2C2B2B;
+    gap: 5px;
+    position: relative;
+    bottom: 60px;
+
+}
+.info-box-2 p{
+    padding-top: 10px;
+}
+.info-box-2 ion-icon{   
+    margin-left: 9px;
+    color:#7E96FF;
+    font-size: 40px;
+    padding-top: 5px;
+
+}
+
+.upcoming{
+    position: relative;
+    bottom: 35px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.upcoming h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: black;
+    margin-bottom: 17px;
+    margin-left: 16px;
+    position: relative;
+    bottom: 15px;
+    
+
+
+}
+.upcoming p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    color: gray;
+    margin-top: 7px;
+    position: relative;
+    bottom: 15px;
+
+}
+.upcoming-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 65px;
+}
+.upcoming-cards .upcoming-card-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    box-shadow: -4px 8px 25px -8px #00000026;
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: 75px;
+    width: 343px;
+
+}
+.upcoming-cards .upcoming-card-1 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+}
+.upcoming-cards .upcoming-card-1 h5{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+}
+.upcoming-cards .upcoming-card-1 p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    text-align: left;
+    color: gray 100;
+
+}
+.upcoming-cards .upcoming-card-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    box-shadow: -4px 8px 25px -8px #00000026;
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: 75px;
+    width: 343px;
+
+}
+.upcoming-cards .upcoming-card-2 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+}
+.upcoming-cards .upcoming-card-2 h5{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+}
+.upcoming-cards .upcoming-card-2 p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    text-align: left;
+    color: gray 100;
+
+}
+.upcoming-cards .upcoming-card-1 .p-8-content{
+    padding-right: 80px;
+}
+.upcoming-cards .upcoming-card-2 .p-8-content{
+    padding-right: 65px;
+}
+
+/* toggle*/
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default checkbox */
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Style the slider */
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px; /* Double the width of the slider */
+    height: 20px;
+}
+
+/* Hide default checkbox */
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Style the slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px; /* Half of the height */
+}
+
+/* Style the slider when it's in the checked state */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px; /* 80% of the height */
+    width: 16px; /* 80% of the height */
+    left: 2px; /* Half of the remaining space */
+    bottom: 2px; /* Half of the remaining space */
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+/* Move the slider to the right when checked */
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px); /* Move the slider to the right by the width of the slider */
+}
+
+/* Style the text inside the toggle button */
+.slider.round {
+    border-radius: 20px; /* Half of the height */
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*---mobile nav-----------*/
+.mobile-nav{
+    width: 360px;
+    height: 70px;
+    overflow: hidden;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 19px;
+    position: relative;
+    background: #fff;
+    margin-top: 50px;
+    bottom: 129px;
+    overflow: hidden;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 5px;
+    z-index: 10;
+}
+.mobile-nav  a.active{
+    color:#829DFF;
+    margin-right: 70px;
+
+}
+.mobile-nav a{
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 26px;
+    
+
+}
+
+.search-btn{
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+    color: #fff;
+    border: transparent;
+    border-radius: 150px;
+    width: 63px;
+    position: absolute;
+    bottom: 45px;
+    left: 145px;
+    height: 63px;
+    gap: 0px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 26px;
+    padding-top: 5px;
+    box-shadow: 0px 4px 6.5px 0px #00000026;
+
+}
+.training-sec{
+    display: flex;
+    flex-direction: column;
+}
+.training-sec img{
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF7A;
+    border-radius: 150px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+.training-sec h5{
+    position: relative;
+    bottom: 40px;
+    margin-left: 16px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+
+.training-card-1{
+    display: flex;
+    width: 343px;
+    height: 100px;
+   margin-left:8px;
+   border-radius: 12px;
+   background: #8CB1FF99;
+   bottom: 25px;
+   position: relative;
+   justify-content: space-between;
+   box-shadow: -4px 8px 25px -8px #00000026;
+
+}
+.training-card-1 .content{
+    padding-left: 16px;
+    padding-top: 20px;
+}
+.training-card-1 .content h6{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+
+
+}
+.training-card-1 .content p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    text-align: left;
+}
+.gj{
+    position: relative;
+    bottom: 170px;
+    left: 50px;
+    font-family: Montserrat;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 13.65px;
+    text-align: left;
+
+
+}
+.bj{
+    position: relative;
+    bottom: 180px;
+    left: 225px;
+    font-family: Montserrat;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 13.65px;
+    text-align: left;
+}
+.cal{
+    position: relative;
+    bottom: 170px;
+    right: 6px;
+    font-family: Montserrat;
+    font-size: 13.23px;
+    font-weight: 400;
+    line-height: 16.13px;
+    text-align: left;
+
+}
+.mobile-nav-2{
+    width: 360px;
+    height: 70px;
+    overflow: hidden;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 19px;
+    position: relative;
+    background: #fff;
+    margin-top: 50px;
+    overflow: hidden;
+    bottom: 180px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 5px;
+    z-index: 10;
+}
+.mobile-nav-2  a.active{
+    color:#829DFF;
+    margin-right: 70px;
+
+}
+.mobile-nav-2 a{
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 26px;
+    
+
+}
+
+
+.calender-title .title{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.calender-title .title ion-icon{
+    background: var(--gray-50, #F1F1F1);
+    width: 20px;
+    height: 20px;
+    border: 3px;
+    margin-left: 16px;
+    color:#2C2B2B;
+    padding: 2px;
+    margin-top: 26px;
+}
+.calender-title h4{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: center;
+    margin-top: 26px;
+    height: 24px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.date p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.date-calender{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:Quicksand;
+    color: #454545;
+
+}
+.date-calender .cal-box-1 {
+    width: 63px;
+    height: 74px;
+    border-radius: 9.96px ;
+    background: #FFFFFF;
+    padding-top: 12px;
+
+}
+.date-calender .cal-box-1 p:nth-child(1){
+    text-align: center;
+
+}
+.date-calender .cal-box-1 p:nth-child(2){
+    text-align: center;
+}
+.date-calender .cal-box-2 {
+    width: 63px;
+    height: 74px;
+    border-radius: 9.96px ;
+    background: linear-gradient(270deg, #8DA4FF -0.62%, #D1DBFF 100.68%);
+    padding-top: 12px;
+    color: #FFFFFF;
+    
+
+
+}
+.date-calender .cal-box-2 p:nth-child(1){
+    text-align: center;
+}
+.date-calender .cal-box-2 p:nth-child(2){
+    text-align: center;
+}
+.date-calender .cal-box-3 {
+    width: 63px;
+    height: 74px;
+    border-radius: 9.96px ;
+    background: #FFFFFF;
+    padding-top: 12px;
+
+
+
+}
+.date-calender .cal-box-3 p:nth-child(1){
+    text-align: center;
+}
+.date-calender .cal-box-3 p:nth-child(2){
+    text-align: center;
+}
+.date-calender .cal-box-4 {
+    width: 63px;
+    height: 74px;
+    border-radius: 9.96px ;
+    background: #FFFFFF;
+    padding-top: 12px;
+
+
+}
+.date-calender .cal-box-4 p:nth-child(1){
+    text-align: center;
+}
+.date-calender .cal-box-4 p:nth-child(2){
+    text-align: center;
+}
+.date-calender .cal-box-5 {
+    width: 63px;
+    height: 74px;
+    border-radius: 9.96px ;
+    background: #FFFFFF;
+    padding-top: 12px;
+
+
+}
+.date-calender .cal-box-5 p:nth-child(1){
+    text-align: center;
+}
+.date-calender .cal-box-5 p:nth-child(2){
+    text-align: center;
+}
+
+.calender-timings{
+    margin-left: 16px;
+    margin-top: 20px;
+}
+.calender-timings p{
+    border-bottom: 0.5px solid #7F7F7F;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    color: #2C2B2B;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.calender-timings p:nth-child(4){
+    border-bottom: 1px solid #5883F7;
+
+}
+
+.abworkout{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    position: relative;
+    bottom: 455px;
+    left: 200px;
+    text-align: left;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+    color: #FFFFFF;
+    width: 149px;
+    height: 30px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.upworkout{
+    width: 189px;
+    height: 28px;
+    position: relative;
+    bottom: 422px;
+    left: 100px;
+    border-radius: 20px;
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: left;
+    color: #fff;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.lowworkout{
+    width: 173px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 265px;
+    padding-top: 5px;
+    padding-left: 8px;
+    left: 110px;
+    background: var(--gray-50, #F1F1F1);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: left;
+    color: var(--black, #2C2B2B);
+}
+.plus{
+    width: 63px;
+    height: 63px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(90.95deg, #E9B1E0 0.79%, #D3A5F2 99.18%);
+    box-shadow: 0px 4px 6.5px 0px #00000026;
+    border: transparent;
+    border-radius: 150px;
+    position: relative;
+    bottom: 110px;
+    left: 285px;
+
+}
+
+.plus ion-icon{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.88px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+

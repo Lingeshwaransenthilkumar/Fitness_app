@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page8.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-------status starts------------>
+        <div class="status">
+            <div class="time">
+                <p>9:26</p>
+            </div>
+            <div class="icons">
+                <ion-icon name="cellular"></ion-icon>
+                <ion-icon name="wifi"></ion-icon>
+                <ion-icon name="battery-full"></ion-icon>
+            </div>
+        </div>
+        <!------------Status ends----------->
+        <main class="workout-page">
+            <div class="title">
+                <a href="checklist.html"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                <h4>Workout Tracker</h4>
+            </div>
+
+            <a href="calender.html"><div class="box-chart">
+                <canvas id="myChart"></canvas>
+                <p class="gj"> Good job</p>
+                <p class="bj"> less then 320cal</p>
+                <p class="cal">900CAL</p>
+            </div>
+            </a>
+            <div class="info-box-2">
+                <ion-icon name="warning-outline"></ion-icon>
+                <p>You've burned fewer calories than yesterday. Time to get moving! </p>
+            </div>
+            <div class="upcoming">
+                <h4>Upcoming Workout</h4>
+                <p>See more</p>
+            </div>
+            <div class="upcoming-cards">
+                <div class="upcoming-card-1">
+                    <img src="page8.png" alt="">
+                    <div class="p-8-content">
+                        <h5>Full Body Workout</h5>
+                        <p>Today 3pm</p>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="upcoming-card-2">
+                    <img src="page-8-img2.png" alt="">
+                    <div class="p-8-content">
+                        <h5>Upper Body Workout</h5>
+                        <p>4 Feb, 3:30 pm</p>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="training-sec">
+                <h5>What Do You Want to Train</h5>
+                <div class="training-cards">
+                    <div class="training-card-1">
+                        <div class="content">
+                            <h6>Full Body Workout</h6>
+                            <p>Arms</p>
+                            <p>Chest</p>
+                        </div>
+                        <img src="vody-workout.png" alt="">
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <nav class="mobile-nav">
+                <a href=""><ion-icon name="home-outline"></ion-icon></a>
+                <a href="#" class="active"><ion-icon name="analytics-outline"></ion-icon></a>
+                <a href=""><ion-icon name="camera-outline"></ion-icon></a>
+                <a href=""><ion-icon name="person-outline"></ion-icon></a>
+            </nav>
+            <button class="search-btn"><ion-icon name="search-outline"></ion-icon></button>
+
+
+
+
+        </main>
+        
+
+
+
+
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
+
+</body>
+</html>
