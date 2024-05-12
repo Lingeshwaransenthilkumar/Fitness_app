@@ -13,8 +13,10 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'montserrat',sans-serif;
+    /*
     background:conic-gradient(at 0% 0%, snow, white);
-    
+    */
+    background-image: url(11011.jpg);
 }
 
 .wrapper{
